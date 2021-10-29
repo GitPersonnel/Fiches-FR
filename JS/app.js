@@ -14,6 +14,9 @@ SECTIONS.forEach(SECTION => {
     SECTION.addEventListener('click',()=>{
         if(NAVIGATION.classList.contains('active')){
             NAVIGATION.classList.remove('active')
+            BARS.forEach(BAR => {
+                BAR.classList.toggle("active")
+            });
         }
     })
 });
