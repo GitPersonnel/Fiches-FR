@@ -1,6 +1,8 @@
 const BURGER_MENU = document.querySelector(".burger-menu")
 const BARS = document.querySelectorAll(".bar")
 const NAVIGATION = document.querySelector(".main-ul")
+const SECTIONS = document.querySelectorAll("section")
+
 
 BURGER_MENU.addEventListener('click',()=>{
 
