@@ -38,7 +38,8 @@ a{
     transform: translate(0,-50%);
     height: 5%;
     left: 0;
-    background-color: black;
+    filter:saturate(2);
+    backdrop-filter: invert(1);
 }
 
 .bar1{
