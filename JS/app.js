@@ -20,3 +20,23 @@ SECTIONS.forEach(SECTION => {
         }
     })
 });
+
+BURGER_MENU.addEventListener('touch',()=>{
+
+    NAVIGATION.classList.toggle('active')
+    BARS.forEach(BAR => {
+        BAR.classList.toggle("active")
+    });
+    
+    })
+    
+    SECTIONS.forEach(SECTION => {
+        SECTION.addEventListener('click',()=>{
+            if(NAVIGATION.classList.contains('active')){
+                NAVIGATION.classList.remove('active')
+                BARS.forEach(BAR => {
+                    BAR.classList.toggle("active")
+                });
+            }
+        })
+    });
