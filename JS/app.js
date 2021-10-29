@@ -10,3 +10,10 @@ BARS.forEach(BAR => {
 });
 
 })
+SECTIONS.forEach(SECTION => {
+    SECTION.addEventListener('click',()=>{
+        if(NAVIGATION.classList.contains('active')){
+            NAVIGATION.classList.remove('active')
+        }
+    })
+});
