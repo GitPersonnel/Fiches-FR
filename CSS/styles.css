@@ -164,7 +164,6 @@ p{
     -moz-text-stroke:rgba(0, 0, 0,0.3) .2rem ;
     -webkit-text-stroke: rgba(0, 0, 0,0.3) .2rem;
 }
-
 @media screen and (max-width: 850px){
     :root{
         font-size: 8px;
@@ -175,7 +174,7 @@ p{
         width: 30vw;
     }
     .main-title{
-        font-size: 13rem;
+        font-size: 12rem;
     }
 }
 @media screen and (max-width: 500px){
@@ -188,7 +187,7 @@ p{
 }
 @media screen and (max-width: 400px){
     .main-title{
-        font-size: 11rem;
+        font-size: 10rem;
     }
 }
 @media screen and (max-width: 350px){
@@ -201,6 +200,6 @@ p{
 }
 @media screen and (max-width: 300px){
     .main-title{
-        font-size: 8rem;
+        font-size: 7rem;
     }
 }
